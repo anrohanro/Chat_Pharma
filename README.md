@@ -1,7 +1,8 @@
 # Chat_Pharma
 # Project Title
 
-Welcome to the Project Title! This repository contains [brief description of your project].
+Inspite of the robust research being carried out in fields of gene- disease correlations and protein- ligand interactions for drug design, the identification of the correct target genes and potential compounds which alter the effects of the corresponding target proteins has always remained one of the most  difficult tasks in the entire  process of drug designing. DrugPred attempts to leverage the decision making capabilities of LLM Agents for the entire process of searching, filtering and optimization of genes targets, protein analogs and potential drugs molecules. DrugPred searches for gene- disease correlations and protein- ligand binding pairs from the DISGENET and ChEMBL databases by calling their respective APIs. The LLM Agent being the central decision maker uses a variety of tools that calculate bio-chemical characteristics of molecules to filter most potent drug molecules. The model also takes these set of potential drug candidates( scaffolds) and builds libraries of similiar compounds using mol2mol transformations in the scaffold. This gives us a larger pool of potential drug candidates to choose from.
+DrugPred is built by integrating different tools like REINVENT and ChEMBL and DISGENET APIs into a central framework of the LLM Agent, CACTUS.
 
 ## Table of Contents
 
