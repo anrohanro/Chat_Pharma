@@ -1,0 +1,16 @@
+{
+    "run_type": "sampling",
+    "device": "cuda:0",
+    "json_out_config": "_sampling.json",
+    "parameters": {
+        "model_file": "priors/mol2mol_medium_similarity.prior",
+        "smiles_file": "smiles\\f2.smi",
+        "sample_strategy": "beamsearch",
+        "temperature": 1.0,
+        "tb_logdir": "tb_logs",
+        "output_file": "samples\\sampling2.csv",
+        "num_smiles": 100,
+        "unique_molecules": true,
+        "randomize_smiles": true
+    }
+}

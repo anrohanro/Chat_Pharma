@@ -1,0 +1,4 @@
+SMILES,Input_SMILES,Tanimoto,NLL
+COc1ccc(S(=O)(=O)N(C(C)=O)c2ccccc2C(=O)c2ccccc2)cc1,COc1ccc(S(=O)(=O)N(C(C)=O)c2ccccc2/C=C/c2cc[n+]([O-])cc2)cc1,0.5865384615384616,2.1781365871429443
+COc1ccc(S(=O)(=O)N(C(C)=O)c2ccccc2Oc2ccccc2)cc1,COc1ccc(S(=O)(=O)N(C(C)=O)c2ccccc2/C=C/c2cc[n+]([O-])cc2)cc1,0.5980392156862745,2.3425798416137695
+COc1ccc(S(=O)(=O)N(C(C)=O)c2ccccc2/C=C/c2ccc(C(=O)O)cc2)cc1,COc1ccc(S(=O)(=O)N(C(C)=O)c2ccccc2/C=C/c2cc[n+]([O-])cc2)cc1,0.73,4.236107349395752

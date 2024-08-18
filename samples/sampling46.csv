@@ -1,0 +1,4 @@
+SMILES,Input_SMILES,Tanimoto,NLL
+Cn1cc(-c2cnc3ncc(Cc4ccc5ncccc5c4)n3n2)cn1,CNC(=O)c1ccc(-c2cnc3ncc(Cc4ccc5ncccc5c4)n3n2)cc1F,0.6372549019607843,2.649472236633301
+c1cnc2ccc(Cc3cnc4ncc(-c5cnn(C6CCNCC6)c5)nn34)cc2c1,CNC(=O)c1ccc(-c2cnc3ncc(Cc4ccc5ncccc5c4)n3n2)cc1F,0.5378151260504201,3.0194461345672607
+c1cnc2ccc(Cc3cnc4ncc(-c5cnn(CCN6CCOCC6)c5)nn34)cc2c1,CNC(=O)c1ccc(-c2cnc3ncc(Cc4ccc5ncccc5c4)n3n2)cc1F,0.512,4.013426303863525

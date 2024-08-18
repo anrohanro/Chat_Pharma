@@ -1,0 +1,4 @@
+SMILES,Input_SMILES,Tanimoto,NLL
+O=C1N/C(=C\c2ccccc2)Oc2cc(Br)c(CCNC(=O)/C(Cc3cccs3)=N/O)cc2O1,O=C1N/C=C/c2ccc(c(Br)c2)Oc2cc(cc(Br)c2O)CCNC(=O)/C(=N/O)Cc2cc(Br)c(c(Br)c2)Oc2cc(cc(Br)c2O)C/C1=N\O,0.18811881188118812,4.614582538604736
+O=C1NCCc2cc(Br)c(O)c(c2)O/C(=C/c2ccc(F)cc2)NC(=O)c2c(Br)cccc2O/C1=N\O,O=C1N/C=C/c2ccc(c(Br)c2)Oc2cc(cc(Br)c2O)CCNC(=O)/C(=N/O)Cc2cc(Br)c(c(Br)c2)Oc2cc(cc(Br)c2O)C/C1=N\O,0.38202247191011235,5.078018665313721
+O=C1NCCc2cc(Br)c(O)c(c2)O/C(=C/c2ccc(F)cc2)NC(=O)c2cc(Cl)ccc2O/C1=N\O,O=C1N/C=C/c2ccc(c(Br)c2)Oc2cc(cc(Br)c2O)CCNC(=O)/C(=N/O)Cc2cc(Br)c(c(Br)c2)Oc2cc(cc(Br)c2O)C/C1=N\O,0.3743016759776536,5.200514316558838

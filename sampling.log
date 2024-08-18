@@ -1,0 +1,30 @@
+23:25:26 <INFO> Started REINVENT 4.3.5 (C) AstraZeneca 2017, 2023 on 2024-08-18
+23:25:26 <INFO> Command line: C:\Users\Rohan KumarMishra\anaconda3\envs\cactus_new\Scripts\reinvent -l sampling.log config.toml
+23:25:26 <INFO> User Rohan KumarMishra on host LAPTOP-V739BV32
+23:25:26 <INFO> Python version 3.11.9
+23:25:26 <INFO> PyTorch version 2.3.1+cu121, git d44533f9d073df13895333e70b66f81c513c1889
+23:25:26 <INFO> PyTorch compiled with CUDA version 12.1
+23:25:26 <INFO> RDKit version 2023.09.6
+23:25:26 <INFO> Platform Windows-10-10.0.22621-SP0
+23:25:26 <INFO> Number of PyTorch CUDA devices 1
+23:25:26 <INFO> Using CUDA device:0 NVIDIA GeForce RTX 3050 Ti Laptop GPU
+23:25:26 <INFO> GPU memory: 3302 MiB free, 4095 MiB total
+23:25:26 <INFO> Writing JSON config file to C:\Users\Rohan KumarMishra\Desktop\hide\chat_pharma\src\_sampling.json
+23:25:26 <INFO> Starting Sampling
+23:25:26 <INFO> C:\Users\Rohan KumarMishra\Desktop\hide\chat_pharma\src\priors\mol2mol_medium_similarity.prior has valid hash:
+{ 'comments': [],
+  'creation_date': 0,
+  'date_format': 'UNIX epoch',
+  'hash_id': 'b67da12a3b4abf1ea4f6d24c0ac58d50',
+  'hash_id_format': 'xxhash.xxh3_128_hex 3.4.1',
+  'model_id': '0c2799f6b12342b3a31b97c755f8f13a',
+  'model_id_format': 'uuid.uuid4 3.10.12',
+  'origina_data_source': 'ChEMBL 28',
+  'updates': []}
+23:25:26 <INFO> Number of network parameters: 17,462,400
+23:25:26 <INFO> Using generator Mol2Mol
+23:25:26 <INFO> Writing sampled SMILES to CSV file C:\Users\Rohan KumarMishra\Desktop\hide\chat_pharma\src\samples\sampling143.csv
+23:25:26 <WARN> randomize_smiles is set to be True by user. But the model was trained using canonical SMILESwhere randomize_smiles might undermine the performance (this needs more investigation), but randomize_smiles is reset to be False for now.
+23:25:26 <INFO> Sampling 3 SMILES from model priors/mol2mol_medium_similarity.prior
+23:25:28 <INFO> Time taken in seconds: 1
+23:25:28 <INFO> Finished REINVENT on 2024-08-18

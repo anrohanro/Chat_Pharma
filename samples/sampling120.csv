@@ -1,0 +1,4 @@
+SMILES,Input_SMILES,Tanimoto,NLL
+Nc1ncnc2c1n(-c1ccc(Oc3ccccc3)cc1)c(=O)n2CC1CCOCC1,C=CC(=O)N1CCC[C@H](n2c(=O)n(-c3ccc(Oc4ccccc4)cc3)c3c(N)ncnc32)C1,0.6153846153846154,3.1945416927337646
+Nc1ncnc2c1n(-c1ccc(Oc3ccccc3)cc1)c(=O)n2C1CCNCC1,C=CC(=O)N1CCC[C@H](n2c(=O)n(-c3ccc(Oc4ccccc4)cc3)c3c(N)ncnc32)C1,0.7064220183486238,3.81723690032959
+Nc1ncnc2c1n(-c1ccc(Oc3ccccc3)cc1)c(=O)n2[C@H]1CC[C@H](NCc2ccccc2)CC1,C=CC(=O)N1CCC[C@H](n2c(=O)n(-c3ccc(Oc4ccccc4)cc3)c3c(N)ncnc32)C1,0.5789473684210527,5.715655326843262

@@ -1,0 +1,4 @@
+SMILES,Input_SMILES,Tanimoto,NLL
+O=C(NCC(F)(F)F)[C@@H]1CCCN1c1ccnc(-c2c[nH]c3ncccc23)n1,CC[C@@](C)(Nc1ccnc(-c2c[nH]c3ncccc23)n1)C(=O)NCC(F)(F)F,0.58,4.020122528076172
+O=C(NCC(F)(F)F)C1(Nc2ccnc(-c3c[nH]c4ncccc34)n2)CC1,CC[C@@](C)(Nc1ccnc(-c2c[nH]c3ncccc23)n1)C(=O)NCC(F)(F)F,0.6739130434782609,4.260437488555908
+O=C(NCC(F)(F)F)C1(Nc2ccnc(-c3c[nH]c4ncccc34)n2)CCC1,CC[C@@](C)(Nc1ccnc(-c2c[nH]c3ncccc23)n1)C(=O)NCC(F)(F)F,0.6526315789473685,4.758632659912109

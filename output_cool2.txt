@@ -1,0 +1,1 @@
+https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4782197.json
