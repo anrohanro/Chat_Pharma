@@ -52,7 +52,7 @@ To illustrate how the project works, here’s an example:
 
 You can also embed local images using the following syntax:
 
-![Local Image](./images/local-image.png)
+![Local Image](./images/img1.jpg)
 
 ## Contributing
 
