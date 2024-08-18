@@ -32,8 +32,10 @@ Step-by-step instructions to get your project up and running:
 
 2. Install the dependencies:
     ```bash
-    cd your-repository
-    pip install -r requirements.txt
+from cactus.agent import Cactus
+
+api_model = Cactus(model_name="gpt-3.5-turbo", model_type="api")
+api_model.run("What is the molecular weight of the smiles: OCC1OC(O)C(C(C1O)O)O")
     ```
 
 ## Usage
