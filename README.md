@@ -48,7 +48,7 @@ Here's how to use your project:
 
 To illustrate how the project works, here’s an example:
 
-![Example Image](https://example.com/path/to/image.png)
+![Example Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSteve_Jobs&psig=AOvVaw3hNFVLmxl9TvJ2isMCwF4M&ust=1724092860272000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjX8MWY_4cDFQAAAAAdAAAAABAE)
 
 You can also embed local images using the following syntax:
 
