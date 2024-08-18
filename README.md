@@ -1,9 +1,20 @@
 # Chat_Pharma
 # Project Title
 
-Inspite of the robust research being carried out in fields of gene- disease correlations and protein- ligand interactions for drug design, the identification of the correct target genes and potential compounds which alter the effects of the corresponding target proteins has always remained one of the most  difficult tasks in the entire  process of drug designing. DrugPred attempts to leverage the decision making capabilities of LLM Agents for the entire process of searching, filtering and optimization of genes targets, protein analogs and potential drugs molecules. DrugPred searches for gene- disease correlations and protein- ligand binding pairs from the DISGENET and ChEMBL databases by calling their respective APIs. The LLM Agent being the central decision maker uses a variety of tools that calculate bio-chemical characteristics of molecules to filter most potent drug molecules. The model also takes these set of potential drug candidates( scaffolds) and builds libraries of similiar compounds using mol2mol transformations in the scaffold. This gives us a larger pool of potential drug candidates to choose from.
-DrugPred is built by integrating different tools like REINVENT and ChEMBL and DISGENET APIs into a central framework of the LLM Agent, CACTUS.
+ leverages an advanced LLM agent, CACTUS, to make critical decisions throughout the drug discovery process, supported by a set of specialized tools. Here’s how it works:
 
+Decision-Making by LLM Agent (CACTUS):
+
+CACTUS is the core component that drives the entire process. It takes disease information as input and decides how to proceed with finding potential drug candidates.
+Using Specialized Tools:
+
+Gene Target Identification: CACTUS uses the get_targets tool, which connects to the DISGENET API to find genes associated with the disease and retrieves their association scores.
+Finding Drug Compounds: The get_ligands tool interfaces with the ChEMBL API to identify compounds that can bind to the target proteins.
+Generating New Molecules: The Mol2Mol tool from the REINVENT 4 platform is used to create new molecules based on the identified compounds. It generates variations of these molecules to explore new drug possibilities.
+Evaluating Drug-Likeness:
+
+CACTUS also uses an inbuilt tool to calculate the Quantitative Estimate of Drug-likeness (QED) for the generated molecules. This metric helps assess how promising these molecules are as potential drugs.
+In essence, CACTUS, the LLM agent, makes all the key decisions, while the specialized tools handle specific tasks such as identifying gene targets, finding compounds, generating new molecules, and evaluating drug-likeness. This integration streamlines the drug discovery process, making it more efficient and focused.
 ## Table of Contents
 
 1. [Introduction](#introduction)
