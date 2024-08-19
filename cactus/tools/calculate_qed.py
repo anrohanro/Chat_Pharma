@@ -55,7 +55,7 @@ class CalculateQED(BaseTool):
                     results[compound] = qed_value
         with open(r"C:\Users\Rohan KumarMishra\Desktop\final_comp.json", 'w') as file:
             json.dump(results, file, indent=4)  # indent=4 for pretty printing
-        return results.keys
+        return list(islice(results.keys(), 3))
 
     def read_csv_files_from_folder(self, folder_path: str) -> List[str]:
         """Read CSV files from a folder and extract the first column."""
