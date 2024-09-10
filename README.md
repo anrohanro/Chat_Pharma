@@ -46,7 +46,7 @@ Step-by-step instructions to get your project up and running:
     ```
 
 2. Install the dependencies:
-    ```bash
+    ```python
     from cactus.agent import Cactus
 
     api_model = Cactus(model_name="gpt-3.5-turbo", model_type="api")
