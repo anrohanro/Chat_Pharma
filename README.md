@@ -1,6 +1,6 @@
-# Chat_Pharma
+# DrugAgent
 
-**Chat_Pharma** leverages an advanced LLM agent, CACTUS, to make critical decisions throughout the drug discovery process, supported by a set of specialized tools. This integration streamlines the discovery of potential drug candidates, making the process more efficient and focused.
+**DrugAgent** leverages an advanced LLM agent, CACTUS, to make critical decisions throughout the drug discovery process, supported by a set of specialized tools. This integration streamlines the discovery of potential drug candidates, making the process more efficient and focused.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -17,9 +17,9 @@ Drug development broadly happens in four stages: discovery, preclinical studies,
 
 However, drug discovery is an expensive and time-consuming process. It typically takes 12-15 years for a drug to reach the market, with development costs ranging between $900 million and $2 billion. This is largely due to the identification, characterization, and screening of 5,000 to 10,000 potential drug molecules, with only one making it to market.
 
-**Chat_Pharma** helps researchers narrow down potential drug candidates, cutting down on time and resources. It integrates generative AI with molecular design tools like REINVENT 4, gene-disease association databases like DISGENET, and protein-ligand databases like ChEMBL.
+**DrugAgent** helps researchers narrow down potential drug candidates, cutting down on time and resources. It integrates generative AI with molecular design tools like REINVENT 4, gene-disease association databases like DISGENET, and protein-ligand databases like ChEMBL.
 
-At the heart of the software is the LLM agent **CACTUS**, which is trained using a Thought-Action-Observation model. CACTUS makes all the key decisions, such as:
+At the heart of the software is the LLM agent **DrugAgent**, which is trained using a Thought-Action-Observation model. CACTUS makes all the key decisions, such as:
 - Identifying gene targets using the DISGENET API, which provides a list of genes associated with a disease and their Gene-Disease Association scores.
 - Finding drug compounds using the ChEMBL API, which retrieves ligands that bind to target proteins.
 - Generating new molecules with the Mol2Mol tool from REINVENT 4.
