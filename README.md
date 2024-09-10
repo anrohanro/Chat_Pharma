@@ -50,7 +50,7 @@ Step-by-step instructions to get your project up and running:
     from cactus.agent import Cactus
 
     api_model = Cactus(model_name="gpt-3.5-turbo", model_type="api")
-    api_model.run("What is the molecular weight of the smiles: OCC1OC(O)C(C(C1O)O)O")
+    api_model.run("get me possible drug for disease ID UMLS_C0011859")
     ```
 
 ## Usage
