@@ -42,7 +42,7 @@ Step-by-step instructions to get your project up and running:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repository.git
+    git clone https://github.com/anrohanro/Chat_Pharma.git
     ```
 
 2. Install the dependencies:
