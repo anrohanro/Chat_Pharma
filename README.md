@@ -1,37 +1,40 @@
 # Chat_Pharma
-# Project Title
 
- leverages an advanced LLM agent, CACTUS, to make critical decisions throughout the drug discovery process, supported by a set of specialized tools. Here’s how it works:
+**Chat_Pharma** leverages an advanced LLM agent, CACTUS, to make critical decisions throughout the drug discovery process, supported by a set of specialized tools. This integration streamlines the discovery of potential drug candidates, making the process more efficient and focused.
 
-Decision-Making by LLM Agent (CACTUS):
-
-CACTUS is the core component that drives the entire process. It takes disease information as input and decides how to proceed with finding potential drug candidates.
-Using Specialized Tools:
-
-Gene Target Identification: CACTUS uses the get_targets tool, which connects to the DISGENET API to find genes associated with the disease and retrieves their association scores.
-Finding Drug Compounds: The get_ligands tool interfaces with the ChEMBL API to identify compounds that can bind to the target proteins.
-Generating New Molecules: The Mol2Mol tool from the REINVENT 4 platform is used to create new molecules based on the identified compounds. It generates variations of these molecules to explore new drug possibilities.
-Evaluating Drug-Likeness:
-
-CACTUS also uses an inbuilt tool to calculate the Quantitative Estimate of Drug-likeness (QED) for the generated molecules. This metric helps assess how promising these molecules are as potential drugs.
-In essence, CACTUS, the LLM agent, makes all the key decisions, while the specialized tools handle specific tasks such as identifying gene targets, finding compounds, generating new molecules, and evaluating drug-likeness. This integration streamlines the drug discovery process, making it more efficient and focused.
 ## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Example](#example)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
+Drug development broadly happens in four stages: discovery, preclinical studies, clinical development, and market approval. The discovery stage is the most crucial from our perspective, as it’s when we design drugs based on disease proliferation mechanisms and tailor the molecular structure of potential drugs.
 
-Provide a brief overview of your project. Explain the purpose and objectives.
+However, drug discovery is an expensive and time-consuming process. It typically takes 12-15 years for a drug to reach the market, with development costs ranging between $900 million and $2 billion. This is largely due to the identification, characterization, and screening of 5,000 to 10,000 potential drug molecules, with only one making it to market.
+
+**Chat_Pharma** helps researchers narrow down potential drug candidates, cutting down on time and resources. It integrates generative AI with molecular design tools like REINVENT 4, gene-disease association databases like DISGENET, and protein-ligand databases like ChEMBL.
+
+At the heart of the software is the LLM agent **CACTUS**, which is trained using a Thought-Action-Observation model. CACTUS makes all the key decisions, such as:
+- Identifying gene targets using the DISGENET API, which provides a list of genes associated with a disease and their Gene-Disease Association scores.
+- Finding drug compounds using the ChEMBL API, which retrieves ligands that bind to target proteins.
+- Generating new molecules with the Mol2Mol tool from REINVENT 4.
+- Evaluating drug-likeness using the Quantitative Estimate of Drug-likeness (QED).
 
 ## Getting Started
 
 ### Prerequisites
+Ensure you have the following installed:
+- Python 3.8+
+- DISGENET API access
+- ChEMBL API access
+- REINVENT 4 platform
+- Required Python libraries (e.g., requests, pandas, etc.)
 
-List any software or packages required for running the project.
 
 ### Installation
 
